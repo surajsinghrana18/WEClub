@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Events" />
+        <item
+            android:id="@+id/intern"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="Internships" />
+        <item
+            android:id="@+id/collab"
+            android:icon="@drawable/collab"
+            android:title="Our Collaborations" />
+        <item
+            android:id="@+id/meet"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Meet The Team" />
+    </group>
+</menu>
